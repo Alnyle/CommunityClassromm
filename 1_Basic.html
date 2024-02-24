@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>hello man how are you doing</h1>
+</body>
+</html>
+
+
+
+
+<!-- 
+    1- git init : great local repository (put your file on branch called master)
+
+    syntax
+    git init (implement commend inside folder)
+
+ -->
+<!-- 
+    2- mkdir: create Folder
+
+    syntax
+    mkdir FolderName
+
+    example
+
+    mkdir Project
+ -->
+<!-- 
+    3- git add : track change in the file
+
+    syntax
+    git add fileName
+
+    example
+
+    git add index.html
+
+    another way
+    git add . // track all change in this folder and add change in staging area (save of )
+ -->
+
+<!-- 
+    4- git commit : add the change to git history 
+
+    syntax
+    git commit -m"message"
+
+    example
+
+    git add index.html
+
+    another way
+    git add . // track all change in this folder and add change in staging area (save of )
+ -->
+
+<!-- 
+   5- git status: show tracked file and untrack files in your github folder
+
+    syntax and example
+    git status
+ -->
+
+<!-- 
+   6- cat: to show content of a file
+
+    syntax 
+    cat fileName
+    
+    example
+    cat index.html
+ -->
+
+ <!-- 
+   7- git vi: open a file you can change it's content
+
+    syntax 
+    vi fileName
+    
+    example
+    vi index.html
+
+
+    to your change on the file => escape then => shift + :  then => wq
+    w : save changes 
+    q: quit
+
+ -->
+
+ <!-- 
+   8- git log: to get History of commits
+
+    syntax 
+    git log
+
+ -->
+
+
+ <!-- 
+
+    9- rm -rf: remove file
+
+
+    syntax
+    rm -rf fileName
+
+  -->
+
+
+  
+ <!-- 
+
+    10- git reset: remove all commit after this commit
+
+    syntax
+    git reset -commit-id
+
+    example
+    git reset 7312sa21jrfe823en32e
+
+  -->
+
+ <!-- 
+
+    10- git stash: save your changes without saving it in hostory of git file
+
+
+    syntax - ex
+    git stash
+
+    to delete the save it change in the back 
+
+    syntax - ex
+    git stash clear
+
+
+
+  -->
+
+// git status 
+// put my file staging area => put your file in the another machine to save your files
+// git init => great local repository (put your file on branch called master)
+// git init -b branchName => great local repository (put your file on branch called branchName)
+// git add fileName => add the file to staging area
+// git rm --cached <file> use to unstage file
+// git log => to know number of commits you have don until now / History of commits
+// git commit => put file in commit his
+// git commit -m "messageHere" => commit with message
+// git commit -a -m "messageHere" => commit without need to add your file to staging area
+// git diff => show you history of the changes that you have done on your file 
+// git diff --staged => show you history of the changes that you have done on your file in staging area
+// git add . => to track or add all your files to staging area
+
+
+// remove 
+// git rm --cached fileName => to remove file from repository or git (make it untracked) -> commit alway after it
+
+// Download file from git using CMD
+// git clone lineHero
+
+// every commit have id
+
+/* Project Directory content:
+part1:  (working Directory (my workspace) )
+ 
+part2: 
+        (staging area (index))
+        (commit History (Object))
+ 
+ */
